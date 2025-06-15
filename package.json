@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "tw:build": "tailwindcss build -i ./public/css/tailwind.css -o ./public/css/main.css --watch",
-        "build": "tailwindcss build -i ./public/css/tailwind.css -o ./public/css/main.css",
+    "build": "tailwindcss build -i ./public/css/tailwind.css -o ./public/css/main.css",
 
     "start": "node server.js"
   },
