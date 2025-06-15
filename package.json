@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "tw:build": "tailwindcss build -i ./public/css/tailwind.css -o ./public/css/main.css --watch",
+    "build": "tailwindcss build -i ./public/css/tailwind.css -o ./public/css/main.css",
     "start": "node server.js"
   },
   "keywords": [],
@@ -14,6 +15,7 @@
   "dependencies": {
     "@tailwindcss/typography": "^0.5.16",
     "daisyui": "^4.12.24",
+    "dotenv": "^16.5.0",
     "express": "^5.1.0"
   },
   "devDependencies": {
